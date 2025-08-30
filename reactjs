@@ -1,0 +1,26 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App(){
+  const userName="Sohrab Mim";
+  let y =10;
+  let z =20;
+  return(
+    <>
+    <h1> {userName} </h1>
+    <h1>{10+10+10}</h1>
+    <h1>{y+z}</h1>
+<button onClick={()=>alert("Hi Mim")}>Click</button>
+<br />
+<button onClick={()=>alert("Hello")}>Cleck Me</button>
+    </>
+  )
+}
+export default App
+
+//terminal output dakta hiola cd react-blog
+//npm run dev use kore then dakta hbe
+
+
